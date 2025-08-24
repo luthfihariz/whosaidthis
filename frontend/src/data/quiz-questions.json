@@ -1,0 +1,248 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "quote": "The only way to do great work is to love what you do.",
+      "options": [
+        "Steve Jobs",
+        "Bill Gates",
+        "Mark Zuckerberg",
+        "Elon Musk"
+      ],
+      "correct_answer": 0,
+      "category": "global"
+    },
+    {
+      "id": 2,
+      "quote": "Beri aku 1000 orang tua, niscaya akan kucabut semeru dari akarnya. Beri aku 10 pemuda, niscaya akan kuguncangkan dunia.",
+      "options": [
+        "Soekarno",
+        "Mohammad Hatta",
+        "Tan Malaka",
+        "Ki Hajar Dewantara"
+      ],
+      "correct_answer": 0,
+
+      "category": "indonesia"
+    },
+    {
+      "id": 3,
+      "quote": "In the end, we will remember not the words of our enemies, but the silence of our friends.",
+      "options": [
+        "Malcolm X",
+        "Martin Luther King Jr.",
+        "Nelson Mandela",
+        "Mahatma Gandhi"
+      ],
+      "correct_answer": 1,
+      "category": "global"
+    },
+    {
+      "id": 4,
+      "quote": "Pendidikan merupakan senjata paling ampuh yang bisa kamu gunakan untuk mengubah dunia.",
+      "options": [
+        "Ki Hajar Dewantara",
+        "Nelson Mandela",
+        "Albert Einstein",
+        "John Dewey"
+      ],
+      "correct_answer": 1,
+      "category": "global"
+    },
+    {
+      "id": 5,
+      "quote": "Jadilah seperti karang di lautan yang kuat dihantam ombak dan kerjakanlah hal yang bermanfaat untuk diri sendiri dan orang lain, karena hidup hanyalah sekali.",
+      "options": [
+        "Soekarno",
+        "Sutan Sjahrir",
+        "Ir. Soekarno",
+        "Mohammad Hatta"
+      ],
+      "correct_answer": 0,
+      "category": "indonesia"
+    },
+    {
+      "id": 6,
+      "quote": "The future belongs to those who believe in the beauty of their dreams.",
+      "options": [
+        "Eleanor Roosevelt",
+        "Maya Angelou",
+        "Oprah Winfrey",
+        "Hillary Clinton"
+      ],
+      "correct_answer": 0,
+      "category": "global"
+    },
+    {
+      "id": 7,
+      "quote": "Ing ngarso sung tulodo, ing madyo mangun karso, tut wuri handayani.",
+      "options": [
+        "Ki Hajar Dewantara",
+        "R.A. Kartini",
+        "Sultan Agung",
+        "Pangeran Diponegoro"
+      ],
+      "correct_answer": 0,
+      "category": "indonesia"
+    },
+    {
+      "id": 8,
+      "quote": "Innovation distinguishes between a leader and a follower.",
+      "options": [
+        "Bill Gates",
+        "Steve Jobs",
+        "Jeff Bezos",
+        "Larry Page"
+      ],
+      "correct_answer": 1,
+      "category": "global"
+    },
+    {
+      "id": 9,
+      "quote": "Habis gelap terbitlah terang.",
+      "options": [
+        "R.A. Kartini",
+        "Cut Nyak Dien",
+        "Dewi Sartika",
+        "Maria Walanda Maramis"
+      ],
+      "correct_answer": 0,
+      "category": "indonesia"
+    },
+    {
+      "id": 10,
+      "quote": "Be yourself; everyone else is already taken.",
+      "options": [
+        "Mark Twain",
+        "Oscar Wilde",
+        "George Bernard Shaw",
+        "Winston Churchill"
+      ],
+      "correct_answer": 1,
+      "category": "global"
+    },
+    {
+      "id": 11,
+      "quote": "Sekali merdeka, tetap merdeka!",
+      "options": [
+        "Jenderal Sudirman",
+        "Pangeran Diponegoro",
+        "Cut Nyak Dien",
+        "Teuku Umar"
+      ],
+      "correct_answer": 2,
+      "category": "indonesia"
+    },
+    {
+      "id": 12,
+      "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "options": [
+        "Nelson Mandela",
+        "Winston Churchill",
+        "Franklin D. Roosevelt",
+        "John F. Kennedy"
+      ],
+      "correct_answer": 0,
+      "category": "global"
+    },
+    {
+      "id": 13,
+      "quote": "Perjuanganku lebih mudah karena mengusir penjajah, perjuanganmu akan lebih sulit karena melawan bangsamu sendiri.",
+      "options": [
+        "Mohammad Hatta",
+        "Soekarno",
+        "Tan Malaka",
+        "Sutan Sjahrir"
+      ],
+      "correct_answer": 1,
+      "category": "indonesia"
+    },
+    {
+      "id": 14,
+      "quote": "Your time is limited, don't waste it living someone else's life.",
+      "options": [
+        "Steve Jobs",
+        "Albert Einstein",
+        "Socrates",
+        "Confucius"
+      ],
+      "correct_answer": 0,
+      "category": "global"
+    },
+    {
+      "id": 15,
+      "quote": "Bangsa yang besar adalah bangsa yang menghormati jasa pahlawannya.",
+      "options": [
+        "Soekarno",
+        "Mohammad Hatta",
+        "Jenderal Sudirman",
+        "Ki Hajar Dewantara"
+      ],
+      "correct_answer": 0,
+
+      "category": "indonesia"
+    },
+    {
+      "id": 16,
+      "quote": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
+      "options": [
+        "Martin Luther King Jr.",
+        "Malcolm X",
+        "Rosa Parks",
+        "Maya Angelou"
+      ],
+      "correct_answer": 0,
+
+      "category": "global"
+    },
+    {
+      "id": 17,
+      "quote": "Lakukan yang terbaik di tempat dimana kamu berada dan berikan yang terbaik dari apa yang kamu punya.",
+      "options": [
+        "Theodore Roosevelt",
+        "B.J. Habibie",
+        "Soekarno",
+        "Ki Hajar Dewantara"
+      ],
+      "correct_answer": 1,
+      "category": "indonesia"
+    },
+    {
+      "id": 18,
+      "quote": "The way to get started is to quit talking and begin doing.",
+      "options": [
+        "Walt Disney",
+        "Henry Ford",
+        "Thomas Edison",
+        "Benjamin Franklin"
+      ],
+      "correct_answer": 0,
+      "category": "global"
+    },
+    {
+      "id": 19,
+      "quote": "Jangan sekali-kali meninggalkan sejarah!",
+      "options": [
+        "Mohammad Hatta",
+        "Soekarno",
+        "Tan Malaka",
+        "Sutan Sjahrir"
+      ],
+      "correct_answer": 1,
+
+      "category": "indonesia"
+    },
+    {
+      "id": 20,
+      "quote": "Life is what happens to you while you're busy making other plans.",
+      "options": [
+        "John Lennon",
+        "Bob Dylan",
+        "Paul McCartney",
+        "Elvis Presley"
+      ],
+      "correct_answer": 0,
+      "category": "global"
+    }
+  ]
+}

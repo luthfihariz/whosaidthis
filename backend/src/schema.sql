@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS score (
+    username TEXT NOT NULL,
+    score INTEGER NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);

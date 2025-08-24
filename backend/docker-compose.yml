@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    ports:
+      - "8001:8000"
+    environment:
+      - DATABASE_FILE=/data/whosaidthis.db
+    volumes:
+      - sqlite_db:/data
+
+volumes:
+  sqlite_db:

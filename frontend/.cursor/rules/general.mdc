@@ -1,0 +1,101 @@
+---
+alwaysApply: true
+---
+
+# Cursor Rules for WhoSaidThis Frontend
+
+## General Guidelines
+
+### TypeScript
+- Use TypeScript for all files (.ts, .tsx)
+- Define proper types and interfaces for props, API responses, and data structures
+- Avoid `any` type - use specific types or `unknown` when necessary
+- Use type inference when TypeScript can automatically determine the type
+
+### React Best Practices
+- Always use `key` prop when rendering lists to ensure proper reconciliation
+- Use meaningful and unique keys (prefer stable IDs over array indices when possible)
+- Example: `{items.map(item => <Card key={item.id} {...item} />)}`
+
+## Project Structure
+
+### Modular Organization
+- Group files by domain/feature, not by file type
+- Structure: `src/features/[feature-name]/` or `src/domains/[domain-name]/`
+- Example:
+  ```
+  src/
+    features/
+      auth/
+        components/
+        hooks/
+        types/
+        utils/
+      quotes/
+        components/
+        hooks/
+        types/
+        utils/
+  ```
+
+### Naming Conventions
+- **Routes**: Use lowercase with kebab-case (`/user-profile`, `/quote-details`)
+- **Components**: Use PascalCase (`QuoteCard`, `UserProfile`, `AuthButton`)
+- **Files**: Match component names (`QuoteCard.tsx`, `UserProfile.tsx`)
+- **Hooks**: Use camelCase with `use` prefix (`useQuoteData`, `useAuth`)
+- **Utilities**: Use camelCase (`formatDate`, `validateEmail`)
+
+## Styling and Components
+
+### UI Framework
+- Use Tailwind CSS for styling with utility classes
+- Leverage shadcn/ui components as the foundation for custom components
+- Use `cn()` utility (from `src/lib/utils.ts`) for conditional classes
+- Example: `className={cn("base-classes", condition && "conditional-classes", className)}`
+
+### Component Design
+- Break down components into meaningful, reusable pieces
+- Avoid over-abstraction that leads to excessive prop drilling
+- Follow the "rule of three" - extract a component when you need it 3+ times
+- Keep components focused on a single responsibility
+
+### Prop Naming Consistency
+- Use consistent prop names across similar components:
+  - `isLoading` (not `loading` or `isSpinning`)
+  - `isDisabled` (not `disabled` or `isInactive`)
+  - `onClick` (not `onPress` or `handleClick`)
+  - `children` for component composition
+  - `className` for additional CSS classes
+  - `variant` for component style variations
+
+### Component Patterns
+- Use composition over inheritance
+- Prefer props interfaces over inline prop types
+- Export components as default, types as named exports
+- Example:
+  ```tsx
+  interface QuoteCardProps {
+    quote: Quote;
+    isSelected?: boolean;
+    onSelect?: (id: string) => void;
+    className?: string;
+  }
+
+  export default function QuoteCard({ quote, isSelected, onSelect, className }: QuoteCardProps) {
+    // component logic
+  }
+
+  export type { QuoteCardProps };
+  ```
+
+## Code Quality
+- Prefer explicit imports over barrel exports for better tree-shaking
+- Use meaningful variable and function names
+- Keep functions small and focused
+- Write self-documenting code with clear intent
+- Use ESLint and Prettier configurations consistently
+
+## API Call
+- Prefer Server-Side Fetching When Possible to Improve SEO, Performance, Security
+- Use Route Handler and wrap external APIs in the Next.js Backend
+- Put BASE URL of 3rd party service in the environment variable
